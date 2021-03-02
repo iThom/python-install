@@ -4,6 +4,7 @@ PYTHON_39_VERSION=3.9.2
 NB_CORES=$(nproc)
 
 # Needed dependencies
+apt update
 apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev curl libbz2-dev liblzma-dev
 
 # Get last python 3.9.x sources
