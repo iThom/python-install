@@ -5,7 +5,7 @@ NB_CORES=$(nproc)
 
 # Needed dependencies
 apt update
-apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev curl libbz2-dev liblzma-dev
+apt -y install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev curl libbz2-dev liblzma-dev
 
 # Get last python 3.9.x sources
 curl -O https://www.python.org/ftp/python/$PYTHON_39_VERSION/Python-$PYTHON_39_VERSION.tar.xz
