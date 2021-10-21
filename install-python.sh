@@ -1,6 +1,6 @@
 #!/bin/bash
 # Version to install
-PYTHON_VERSION=3.9.6
+PYTHON_VERSION=3.9.7
 NB_CORES=$(nproc)
 
 # Needed dependencies
